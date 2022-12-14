@@ -107,7 +107,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jkh6565@naver.com"
     - label: "GitHub"
-      icon: "fas fa-fw fa-GutHub"
+      icon: "fab fa-fw fa-GutHub"
       url: "https://github.com/Jeong6565"
     - label: "Website"
       icon: "fas fa-fw fa-link"
