@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -27,7 +27,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/슬픈냥이.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -70,7 +70,6 @@ google_site_verification :
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
-baidu_site_verification  :
 
 # Social Sharing
 twitter:
@@ -89,30 +88,29 @@ social:
 
 # Analytics
 analytics:
-  provider               : # "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : 
-    anonymize_ip         : # false
+    tracking_id          : "G-4RR59X64CC
+    anonymize_ip         : false
 
 
 # Site Author
 author:
   name             : "Jeong6565"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "밥먹자짱짱 샘플 블로그입니다"
+  bio              : "밥먹자짱짱 블로그입니다"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jkh6565@naver.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-GutHub"
-      url: "https://github.com/Jeong6565"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jeong6565.github.io"
-      
+    - label: "GitHub"
+      icon: "fab fa-fw fa-GitHub"
+      url: "https://github.com/Jeong6565"      
 
 # Site Footer
 footer:
