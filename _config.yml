@@ -108,7 +108,7 @@ author:
       url: "mailto:jkh6565@naver.com"
     - label: "GitHub"
       icon: "fas fa-fw fa-GutHub"
-      url: "https://jeong6565.github.io"
+      url: "https://github.com/Jeong6565"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jeong6565.github.io"
@@ -118,7 +118,7 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-GitHub"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/Jeong6565"
 
 # Reading Files
@@ -189,7 +189,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:
 
 
 # Plugins (previously gems:)
