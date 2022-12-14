@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "jeong6565"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "밥먹자짱짱 블로그입니다"
+  bio              : "밥먹자짱짱 블로그 입니다"
   location         : "South Korea"
   email            : 
   links:
@@ -110,14 +110,12 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jeong6565"
 
-
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jeong6565"
-
 
 
 # Reading Files
