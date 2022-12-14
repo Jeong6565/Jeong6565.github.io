@@ -16,23 +16,23 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "jeong6565 블로그"
+title                    : "테디노트"
 title_separator          : "|"
-subtitle                 : "Dream"
-name                     : "jeong6565"
-description              : "Jeong6565 블로그 입니다."
-url                      : "https://Jeong6565.github.io"
+subtitle                 : "small positive action"
+name                     : "TeddyNote"
+description              : "테디노트의 블로그 입니다"
+url                      : "https://teddynote.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/슬픈냥이.jpg"
+logo                     : "/assets/images/teddynote.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "jeong6565"
+    shortname            : "teddynote"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -66,8 +66,8 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  :
 yandex_site_verification :
+naver_site_verification  : "0c7a0482fe20dffb991f895033dcd41903493eca"
 
 # Social Sharing
 twitter:
@@ -88,34 +88,41 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-4RR59X64CC
+    tracking_id          : "G-4RR59X64CC"
     anonymize_ip         : false
 
 
 # Site Author
 author:
-  name             : "Jeong6565"
+  name             : "TeddyNote"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "밥먹자짱짱 블로그입니다"
+  bio              : "테디노트의 샘플 블로그입니다"
   location         : "South Korea"
-  email            :
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jkh6565@naver.com"
+      url: "mailto:teddylee777@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://jeong6565.github.io"
+      url: "https://teddylee777.github.io"
     - label: "GitHub"
-      icon: "fab fa-fw fa-gitHub"
-      url: "https://github.com/Jeong6565"      
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/teddylee777"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/teddynote"
 
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Jeong6565"
+      url: "https://github.com/teddylee777"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/teddynote"
+
 
 # Reading Files
 include:
@@ -185,7 +192,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone:
+timezone: 
 
 
 # Plugins (previously gems:)
@@ -256,5 +263,5 @@ defaults:
       share: true
       related: true
       show_date: true
-      
+
 date_format: "%Y-%m-%d"
